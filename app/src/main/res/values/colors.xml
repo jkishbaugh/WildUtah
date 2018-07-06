@@ -1,0 +1,27 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+
+    <color name="primaryColor">#b7b8b6</color>
+    <color name="primaryDarkColor">#878886</color>
+
+    <!--BackPacking background color -->
+    <color name="category_backpacking">#34675c</color>
+
+    <!--national parks background color -->
+    <color name="category_national_parks">#023c33</color>
+
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <!--camping background color -->
+    <color name="category_camping">#4CB5F5</color>
+
+    <!--paddle sports category background color -->
+    <color name="category_paddle_sports">#0085c2</color>
+
+    <!-- hiking background color -->
+    <color name="category_hiking">#B3C100</color>
+
+    <!--drives background color -->
+    <color name="category_drives">#7f9100</color>
+</resources>

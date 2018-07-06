@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">WildUtah</string>
+
+    <string name="map_icon_content_description">Map icon to get directions</string>
+
+    <string name="location_photo">Photo of location</string>
+
+    <string name="adams_canyon_description">The trail winds around and eventually meets up
+        with a 40ft cascading waterfall at the end.  The trail is steep in some places as
+        it gradually climbs up to the waterfall.
+    </string>
+
+    <string name="bear_river_migratory_refuge">The Bear River Bird Refuge is 80,000 acres of
+        Marsh, Open Water, Uplands, and Mudflats. The refuge is used for birding, fishing,
+        hunting, and photography.
+    </string>
+    <string name="baker_mine">The hike to the mine is brutal. There is no trail and the mountain
+        tries really hard to insure that you don’t make it. There is a ton of bushwhacking and
+        some rock climbing to get to the top.
+    </string>
+
+    <string name="bluebell_mine_description">The trail head is at the base of James Peak. Park
+        anywhere on the road and hike to the trail head since it is on private land. This is a
+        very beautiful area.
+    </string>
+
+    <string name="deuel_creek_description">This hike is fairly moderate in difficulty but it is
+        very rewarding.  There are many campsites, pools and even a rope swing to try!
+    </string>
+
+    <string name="east_mountain_description">Expect to see many hikers, bikers and even horses.
+        The main path is about 1 mile in length and features many different side trails that all
+        eventually meet back up to the main trail.
+    </string>
+
+    <string name="jardine_juniper_description">The Jardine Juniper Tree is perhaps the most iconic
+        symbol of Cache County, and Logan Canyon. The hike is definitely a northern Utah classic.
+        The tree is the oldest known Rocky Mountain Juniper.
+    </string>
+
+    <string name="bowman_trail_description">The Bowman Trail is a great secret up Millcreek canyon.
+        It is moderately and consistently steep, has great views, and can be a half day or full day
+        hike.
+    </string>
+
+    <string name="double_top_mountain_description">Doubletop Mountain is the second highest peak in
+        the Bear River Range, as well as Cache County, Utah. The peak is very close to the Idaho border
+        and the trek actually starts in Idaho ending at the Peak in Utah.
+    </string>
+
+    <string name="high_creek_lake_description">The entire trail is in the heart of the Mount Naomi
+        Wilderness Area. It is one half of the Mount Naomi Peak National Recreation Trail, with the
+        other half ending at Tony Grove Lake.
+    </string>
+
+    <string name="naturalist_basin_description">For the entirety of the time you will be hiking in
+        pine forests with the occasional open meadow affording good views of the close mountain peaks.
+        There are many small streams and the area is quite wet.
+    </string>
+
+    <string name="notch_lake_description">The trail starts at the Bald Mountain Trailhead and meanders
+        around the South side of Bald Mountain. It remains relatively flat and easy.
+    </string>
+
+    <string name="white_pine_lake_description">This is quite simply one of the best hikes in northern
+        Utah. There are lots of things to see along the way which keeps your brain busy admiring the
+        beauty instead of focusing on your lungs.
+    </string>
+
+    <string name="alpine_loop_description">The Alpine Loop Drive is one of the prettiest spots in Utah.
+        It is also one of the busiest spots in Utah. If you go expecting the crowds its really a gorgeous
+        drive. It goes between Alpine and Provo and passes Timpanogos Cave and Sundance Ski Resort along
+        the way.
+    </string>
+
+    <string name="gandy_warm_springs_description">Gandy is in the middle of nowhere.
+        Once you leave the pavement from Highway 6 (Grand Army of the Republic Highway),
+        the road is dirt but it is graded and level for most of the time.
+    </string>
+
+    <string name="liberty_avon_road_description">The Liberty-Avon Road is a great little
+        off road drive that obviously goes between Liberty in Ogden Valley and Avon in
+        Cache Valley. This makes a scenic alternative between Ogden and Logan if you have
+        extra time.
+    </string>
+
+    <string name="little_bear_river_description">Porcupine Reservoir is a beautiful place to go any
+        time of year and there is enough to do to make a full day out of it if you want to swim and picnic.
+    </string>
+
+    <string name="logan_canyon_description">This Trek is to be used as a travel guide for the
+        sights accessible by car in Logan Canyon. The canyon has 10 established campsites some
+        of them very large and it has 4 picnic areas.
+    </string>
+
+    <string name="tilted_rocks_description">The Tour of the Tilted Rocks is a nice way to spend
+        a few hours exploring several things this monument has to offer. There are 15 numbered
+        stops with different view points and historical facts.
+    </string>
+
+    <string name="colorado_river_description">This short day float, with one rapid, takes you past
+        some amazing desert scenery. It\'s short enough to do in an afternoon and still have time 
+        to have a BBQ at the takeout, but it's long enough to get any new boaters some experience 
+        on a river.
+    </string>
+    
+    <string name="mantua_resevoir_description">
+        Mantua Reservoir Trail is a 4.1 mile heavily trafficked loop trail located near Mantua, Utah
+        that features a lake and is good for all skill levels. The trail offers a number of activity
+        options and is best used from March until November.
+    </string>
+    
+    <string name="mirror_lake_description">Mirror Lake is a 2.8 mile moderately trafficked loop trail
+        located near Kamas, Utah and is good for all skill levels. The trail offers a number of activity
+        options and is best used from June until September.
+    </string>
+
+    <string name="smith_moorehouse_description">Smith and Morehouse Reservoir is a 2.5 mile moderately
+        trafficked out and back trail located near Kamas, Utah that features a lake and is good for all
+        skill levels. The trail offers a number of activity options and is best used from July until October.
+    </string>
+
+    <string name="willard_bay_description">Willard Bay State Park is a 1.2 mile heavily trafficked out and
+        back trail located near Willard, Utah that features a lake and is good for all skill levels. The trail
+        offers a number of activity options and is accessible year-round.
+    </string>
+
+    <string name="arches_description">The park has over 2,000 natural stone arches, in addition to hundreds of
+        soaring pinnacles, massive fins and giant balanced rocks. This red-rock wonderland will amaze you with 
+        its formations, refresh you with its trails, and inspire you with its sunsets.
+    </string>
+    
+    <string name="bryce_canyon_description">There is no place like Bryce Canyon. Hoodoos (odd-shaped pillars of
+        rock left standing from the forces of erosion) can be found on every continent, but here is the largest
+        collection of hoodoos in the world! Descriptions fail.
+    </string>
+
+    <string name="canyonlands_description">Canyonlands invites you to explore a wilderness of countless canyons
+        and fantastically formed buttes carved by the Colorado River and its tributaries.
+    </string>
+
+    <string name="capitol_reef_description">Located in south-central Utah in the heart of red rock country, Capitol
+        Reef National Park is a hidden treasure filled with cliffs, canyons, domes and bridges in the Waterpocket Fold,
+        a geologic monocline (a wrinkle on the earth) extending almost 100 miles.
+    </string>
+
+    <string name="dinosaur_description">Dinosaurs once roamed here. Their fantastic remains are still visible embedded
+        in the rocks. Today, the mountains, desert and untamed rivers flowing in deep canyons, support an array of life.
+        Petroglyphs hint at earlier cultures. Later, homesteaders and outlaws found refuge here.
+    </string>
+
+    <string name="golden_spike_description">May 10, 1869 the Union and Central Pacific Railroads joined their rails at
+        Promontory Summit, Utah Territory and forged the destiny of a nation. Golden Spike National Historic Site shares
+        the stories of the people that define the completion of the first Transcontinental Railroad.
+    </string>
+
+    <string name="zion_description">Follow the paths where ancient native people and pioneers walked. Gaze up at massive
+        sandstone cliffs of cream, pink, and red that soar into a brilliant blue sky. Experience wilderness in a narrow
+        slot canyon. Zion’s unique array of plants and animals will enchant you.
+    </string>
+
+    <string name="box_elder_campground">This campground sits near Box Elder Creek and about one mile away from Mantua Reservoir,
+        offering plenty of options for fishing, boating and swimming. Hiking, biking and horseback riding along the many trails
+        nearby are also popular.The dense Uinta-Wasatch-Cache National Forest offering plenty of shade for most camp sites.
+    </string>
+
+    <string name="weber_memorial_campground">Located just west of Causey Reservoir, Weber Memorial Campground has three large
+        group areas and nearly 60 individual sites complete with fire pits, picnic tables, flush toilets and drinking water.
+        The South Fork of the Ogden River runs through the campground, providing great opportunities for fishing.
+    </string>
+
+    <string name="north_fork_campground">This Weber County Park has nearly 200 campsites with access to running water, flush
+        toilets and several trails perfect for hiking and biking.Then when the sun sets, make sure to bring your sleeping bag
+        out under the night sky for some beautiful star-gazing.
+    </string>
+
+    <string name="monte_cristo_campground">This high-elevation campground typically doesn’t open until late June, but once
+        it does, it’s very popular with the locals. Located in the Uinta-Wasatch-Cache National Forest, Monte Cristo is the
+        highest campground in the Ogden District at 9,000 feet.
+    </string>
+
+    <string name="fort_buenaventura_campground">Embrace Ogden’s history, and camp in the first permanent Anglo settlement
+        in the Great Basin. Located near the Weber River, Fort Buenaventura was built in 1846, and a replica fort, cabins
+        and trading post are still open today.
+    </string>
+
+    <string name="willard_bay_campground">This state park is home to three campgrounds — Willow Campground, Cottonwood
+        Campground and South Marina Campground — and each have multiple sites with access to restrooms with showers.Each
+        campground has easy access to the sandy beaches and water.
+    </string>
+
+    <string name="south_fork_campground">The South Fork Campground complex includes several smaller campgrounds: Magpie, Botts,
+        South Fork, Perception Park, Upper and Lower Meadows and Willows.Each campground has multiple sites and easy access to
+        the South Fork of the Ogden River for kayaking, tubing and fishing.
+    </string>
+
+    <string name="bridger_bay_campground">Camp out with the free-ranging bison, mule deer, bighorn sheep, antelope and more
+        at this Antelope Island State Park campground. Close to Bridger Bay Beach where there’s access to water, toilets and
+        showers, this campground is great for families.
+    </string>
+
+    <string name="bountiful_creek_campground">This high-elevation campground doesn\’t open until late June, but when
+        it does, you’ll have gorgeous views of the Wasatch Front and plenty of great hiking opportunities.You’ll have to
+        access the campground via a steep and winding dirt road, so large vehicles, RVs and trailers aren\’t recommended.
+    </string>
+
+
+</resources>
