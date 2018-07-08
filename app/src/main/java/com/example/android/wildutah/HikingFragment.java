@@ -29,43 +29,31 @@ public class HikingFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.trail_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(R.drawable.adams_canyon_cabin,"Adams Cabin Trail",
-                getActivity().getString(R.string.adams_canyon_description),"Distance: 3.5 miles",
-                "41° 3.978’N, 111° 54.591’W","Difficulty: Easy"));
-        locations.add(new Location(R.drawable.bear_river_migratory_bird_refuge,"Bear River Bird Refuge",
-                getActivity().getString(R.string.bear_river_migratory_refuge),"Distance: varies",
-                "41.479102°N, -112.267650°W","Difficulty: Easy"));
-        locations.add(new Location(R.drawable.baker_mine,"Baker Mine Trail",
-                getActivity().getString(R.string.baker_mine),"Distance: 3 miles",
-                "Baker Mine, Wellsville, UT 84339","Difficulty: Difficult"));
-        locations.add(new Location(R.drawable.bluebell_mine,"Bluebell Mine",
-                getActivity().getString(R.string.bluebell_mine_description),"Distance: 9.08",
-                " 41º 24′ 47″ N, 111º 50′ 36″ W","Difficulty: Moderate"));
-        locations.add(new Location(R.drawable.deuel_creek,"Deuel Creek Trail",
-                getActivity().getString(R.string.deuel_creek_description),"About 2 miles",
-                "40.917337°, -111.863836°″ W","Difficulty: Moderate"));
-        locations.add(new Location(R.drawable.east_mountain_wilderness_park,"East Mountain Park",
-                getActivity().getString(R.string.east_mountain_description),"1 mile",
-                "41° 2’48.02″N – 111°54’17.06″W","Difficulty: Easy"));
-        locations.add(new Location(R.drawable.jardine_juniper,"Jardine Juniper Trail",
-                getActivity().getString(R.string.jardine_juniper_description),"11 miles",
-                "41.81605 N, 111.63267 W","Difficulty: Moderate"));
+
+        locations.add(new Location(R.drawable.bear_river_migratory_bird_refuge,getActivity().getString(R.string.hike_1_name),
+                getActivity().getString(R.string.bear_river_migratory_refuge),getActivity().getString(R.string.hike_1_distance),
+                getActivity().getString(R.string.hike_1_address),getActivity().getString(R.string.hike_1_difficulty)));
+        locations.add(new Location(R.drawable.baker_mine,getActivity().getString(R.string.hike_2_name),
+                getActivity().getString(R.string.baker_mine),getActivity().getString(R.string.hike_2_distance),
+                getActivity().getString(R.string.hike_2_address),getActivity().getString(R.string.hike_2_difficulty)));
+        locations.add(new Location(R.drawable.bluebell_mine,getActivity().getString(R.string.hike_3_name),
+                getActivity().getString(R.string.bluebell_mine_description),getActivity().getString(R.string.hike_3_distance),
+                getActivity().getString(R.string.hike_3_address),getActivity().getString(R.string.hike_3_difficulty)));
+        locations.add(new Location(R.drawable.deuel_creek,getActivity().getString(R.string.hike_4_name),
+                getActivity().getString(R.string.deuel_creek_description),getActivity().getString(R.string.hike_4_distance),
+                getActivity().getString(R.string.hike_4_address),getActivity().getString(R.string.hike_4_difficulty)));
+        locations.add(new Location(R.drawable.east_mountain_wilderness_park,getActivity().getString(R.string.hike_5_name),
+                getActivity().getString(R.string.east_mountain_description),getActivity().getString(R.string.hike_5_distance),
+                getActivity().getString(R.string.hike_5_address),getActivity().getString(R.string.hike_5_difficulty)));
+        locations.add(new Location(R.drawable.jardine_juniper,getActivity().getString(R.string.hike_6_name),
+                getActivity().getString(R.string.jardine_juniper_description),getActivity().getString(R.string.hike_6_distance),
+                getActivity().getString(R.string.hike_6_address),getActivity().getString(R.string.hike_6_difficulty)));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_hiking);
 
 
         ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(locationAdapter);
-
-        /*listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Location location = locations.get(position);
-
-
-            }
-        });
-*/
 
 
         return rootView;

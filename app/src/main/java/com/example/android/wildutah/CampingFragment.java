@@ -29,24 +29,24 @@ public class CampingFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.trail_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-       locations.add(new Location("Box Elder Campground", getActivity().getString(R.string.box_elder_campground),
-               "Fee: $22/night","Sites: 4 group & several singles"));
-        locations.add(new Location("Weber Memorial Campgrounnd", getActivity().getString(R.string.weber_memorial_campground),
-                "Fee: $20/day","Sites: 60"));
-        locations.add(new Location("North Fork Campground", getActivity().getString(R.string.north_fork_campground),
-                "Fee: $20/day","Sites: 200"));
-        locations.add(new Location("Monte Cristo Campground", getActivity().getString(R.string.monte_cristo_campground),
-                "Fee: $23/day","Sites: 44"));
-        locations.add(new Location("Fort Buenaventura Campground", getActivity().getString(R.string.fort_buenaventura_campground),
-                "Fee: $20/day","Sites: several(large & single)"));
-        locations.add(new Location("Willard Bay Campground", getActivity().getString(R.string.willard_bay_campground),
-                "Fee: $30/night","Sites: multiple"));
-        locations.add(new Location("South Fork Campground", getActivity().getString(R.string.south_fork_campground),
-                "Fee: $23/night","Sites: multiple"));
-        locations.add(new Location("Bridger Bay Campground", getActivity().getString(R.string.bridger_bay_campground),
-                "Fee: $15/day","Sites: few"));
-        locations.add(new Location("Bountiful Creek Campground", getActivity().getString(R.string.bountiful_creek_campground),
-                "Fee: $16/day","Sites: 39"));
+       locations.add(new Location(getActivity().getString(R.string.campground_1_name), getActivity().getString(R.string.box_elder_campground),
+               getActivity().getString(R.string.campground_1_fee),getActivity().getString(R.string.campground_1_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_2_name), getActivity().getString(R.string.weber_memorial_campground),
+                getActivity().getString(R.string.campground_2_fee),getActivity().getString(R.string.campground_2_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_3_name), getActivity().getString(R.string.north_fork_campground),
+                getActivity().getString(R.string.campground_3_fee),getActivity().getString(R.string.campground_3_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_4_name), getActivity().getString(R.string.monte_cristo_campground),
+                getActivity().getString(R.string.campground_4_fee),getActivity().getString(R.string.campground_4_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_5_name), getActivity().getString(R.string.fort_buenaventura_campground),
+                getActivity().getString(R.string.campground_5_fee),getActivity().getString(R.string.campground_5_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_6_name), getActivity().getString(R.string.willard_bay_campground),
+                getActivity().getString(R.string.campground_6_fee),getActivity().getString(R.string.campground_6_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_7_name), getActivity().getString(R.string.south_fork_campground),
+                getActivity().getString(R.string.campground_7_fee),getActivity().getString(R.string.campground_7_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_8_name), getActivity().getString(R.string.bridger_bay_campground),
+                getActivity().getString(R.string.campground_8_fee),getActivity().getString(R.string.campground_8_sites)));
+        locations.add(new Location(getActivity().getString(R.string.campground_9_name), getActivity().getString(R.string.bountiful_creek_campground),
+                getActivity().getString(R.string.campground_9_fee),getActivity().getString(R.string.campground_9_sites)));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_camping);
 

@@ -27,21 +27,25 @@ public class PaddleSportsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.trail_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-        locations.add(new Location(R.drawable.colorado_river_day_float,"Colorado River Day Float",
-                getActivity().getString(R.string.colorado_river_description),"Distance: 9.1 miles",
-                "38.69569, -109.41353","Difficulty: Moderate"));
-        locations.add(new Location(R.drawable.mantua_reservoir,"Mantua Reservoir",
-                getActivity().getString(R.string.mantua_resevoir_description),"Distance: TBD",
-                "Mantua Reservoir, Mantua, UT 84324","Difficulty: Easy"));
-        locations.add(new Location(R.drawable.mirror_lake,"Mirror Lake",
-                getActivity().getString(R.string.mirror_lake_description),"Distance: 2.8 miles",
-                "Mirror Lake, Utah 84031","Difficulty: Easy"));
-        locations.add(new Location(R.drawable.smith_and_morehouse,"Smith & Morehouse Reservoir",
-                getActivity().getString(R.string.smith_moorehouse_description),"Distance: 2.5 miles",
-                "Smith and Morehouse Reservoir, Utah 84036","Difficulty: Easy"));
-        locations.add(new Location(R.drawable.willard_bay,"Willard Bay",
-                getActivity().getString(R.string.willard_bay_description),"Distance: 1.2 miles",
-                "Willard Bay, Utah","Difficulty: Easy"));
+        locations.add(new Location(R.drawable.colorado_river_day_float,getActivity().getString(R.string.paddle_sports_1_name),
+                getActivity().getString(R.string.colorado_river_description),getActivity().getString(R.string.paddle_sports_1_distance),
+                getActivity().getString(R.string.paddle_sports_1_address),getActivity().getString(R.string.paddle_sports_1_difficulty)));
+
+        locations.add(new Location(R.drawable.mantua_reservoir,getActivity().getString(R.string.paddle_sports_2_name),
+                getActivity().getString(R.string.mantua_resevoir_description),getActivity().getString(R.string.paddle_sports_2_distance),
+                getActivity().getString(R.string.paddle_sports_2_address),getActivity().getString(R.string.paddle_sports_2_difficulty)));
+
+        locations.add(new Location(R.drawable.mirror_lake,getActivity().getString(R.string.paddle_sports_3_name),
+                getActivity().getString(R.string.mirror_lake_description),getActivity().getString(R.string.paddle_sports_3_distance),
+                getActivity().getString(R.string.paddle_sports_3_address),getActivity().getString(R.string.paddle_sports_3_difficulty)));
+
+        locations.add(new Location(R.drawable.smith_and_morehouse,getActivity().getString(R.string.paddle_sports_4_name),
+                getActivity().getString(R.string.smith_moorehouse_description),getActivity().getString(R.string.paddle_sports_4_distance),
+                getActivity().getString(R.string.paddle_sports_4_address),getActivity().getString(R.string.paddle_sports_4_difficulty)));
+
+        locations.add(new Location(R.drawable.willard_bay,getActivity().getString(R.string.paddle_sports_5_name),
+                getActivity().getString(R.string.willard_bay_description),getActivity().getString(R.string.paddle_sports_5_distance),
+                getActivity().getString(R.string.paddle_sports_5_address),getActivity().getString(R.string.paddle_sports_5_difficulty)));
 
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_paddle_sports);

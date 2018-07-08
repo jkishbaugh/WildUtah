@@ -203,6 +203,137 @@
         it does, you’ll have gorgeous views of the Wasatch Front and plenty of great hiking opportunities.You’ll have to
         access the campground via a steep and winding dirt road, so large vehicles, RVs and trailers aren\’t recommended.
     </string>
+    <string name ="campground_1_name">Box Elder Campground</string>
+    <string name ="campground_2_name">Weber Memorial Campground</string>
+    <string name ="campground_3_name">North Fork Campground</string>
+    <string name ="campground_4_name">Monte Cristo Campground</string>
+    <string name ="campground_5_name">Fort Buenaventura Campground</string>
+    <string name ="campground_6_name">Willard Bay Campground</string>
+    <string name ="campground_7_name">South Fork Campground</string>
+    <string name ="campground_8_name">Bridger Bay Campground</string>
+    <string name ="campground_9_name">Bountiful Creek Campground</string>
 
+    <string name ="campground_1_fee">Fee: $22/night</string>
+    <string name ="campground_2_fee">Fee: $20/day</string>
+    <string name ="campground_3_fee">Fee: $20/day</string>
+    <string name ="campground_4_fee">Fee: $23/day</string>
+    <string name ="campground_5_fee">Fee: $20/day</string>
+    <string name ="campground_6_fee">Fee: $30/night</string>
+    <string name ="campground_7_fee">Fee: $23/night</string>
+    <string name ="campground_8_fee">Fee: $15/day</string>
+    <string name ="campground_9_fee">Fee: $16/day</string>
+
+    <string name ="campground_1_sites">Sites: 4 group &amp; several singles</string>
+    <string name ="campground_2_sites">Sites: 60</string>
+    <string name ="campground_3_sites">Sites: 200</string>
+    <string name ="campground_4_sites">Sites: 44</string>
+    <string name ="campground_5_sites">Sites: several(large &amp; single</string>
+    <string name ="campground_6_sites">Sites: multiple</string>
+    <string name ="campground_7_sites">Sites: multiple</string>
+    <string name ="campground_8_sites">Sites: few</string>
+    <string name ="campground_9_sites">Sites: 39</string>
+
+    <string name ="backpack_1_name">Bowman Trail</string>
+    <string name ="backpack_2_name">Double Top Mountain</string>
+    <string name ="backpack_3_name">High Creek Lake</string>
+    <string name ="backpack__4_name">Naturalist Basin</string>
+    <string name ="backpack_5_name">Notch Lake</string>
+    <string name ="backpack_6_name">White Pine Lake</string>
+
+    <string name ="backpack_1_distance">Distance: 5.7 miles</string>
+    <string name ="backpack_2_distance">Distance: 6.44 miles</string>
+    <string name ="backpack_3_distance">Distance: 11.54 miles</string>
+    <string name ="backpack_4_distance">Distance: 15.5 miles</string>
+    <string name ="backpack_5_distance">Distance: 5.4 miles</string>
+    <string name ="backpack_6_distance">Distance: 8.05 miles</string>
+
+    <string name ="backpack_1_difficulty">Difficulty: Moderate</string>
+    <string name ="backpack_2_difficulty">Difficulty: Easy</string>
+    <string name ="backpack_3_difficulty">Difficulty: Moderate</string>
+    <string name ="backpack_4_difficulty">Difficulty: Moderate</string>
+    <string name ="backpack_5_difficulty">Difficulty: Easy</string>
+    <string name ="backpack_6_difficulty">Difficulty: Moderate</string>
+
+    <string name ="backpack_1_address"> 40.696861°, -111.716073°e</string>
+    <string name ="backpack_2_address">42.01118N, 111.59671W</string>
+    <string name ="backpack_3_address">41.97431N, 111.70912W</string>
+    <string name ="backpack_4_address">40.721951°, -110.864152</string>
+    <string name ="backpack_5_address">40.688944°,-110.903903</string>
+    <string name ="backpack_6_address">41.89493N, 111.64239W</string>
+
+    <string name ="drive_1_name">Alpine Loop</string>
+    <string name ="drive_2_name">Gandy Warm Springs</string>
+    <string name ="drive_3_name">Liberty-Avon Road</string>
+    <string name ="drive_4_name">Little Bear River Salmon Run</string>
+    <string name ="drive_5_name">Logan Canyon Scenic Byway</string>
+    <string name ="drive_6_name">Tour of Tilted Rocks</string>
+
+    <string name ="drive_1_distance">Distance: 20 miles</string>
+    <string name ="drive_2_distance"><![CDATA[Distance: 4 &#189; hour drive]]></string>
+    <string name ="drive_3_distance">Distance: 1–2 hour drive</string>
+    <string name ="drive_4_distance">Distance: 1–2 hour drive</string>
+    <string name ="drive_5_distance">Distance:  39 miles</string>
+    <string name ="drive_6_distance">Distance: 10 miles</string>
+
+    <string name ="hike_1_name">Bear River Bird Refuge</string>
+    <string name ="hike_2_name">Baker Mine Trail</string>
+    <string name ="hike_3_name">Bluebell Mine</string>
+    <string name ="hike_4_name">Deuel Creek Trail</string>
+    <string name ="hike_5_name">East Mountain Park</string>
+    <string name ="hike_6_name">Jardine Juniper Trail</string>
+
+    <string name ="hike_1_distance">Distance: varies</string>
+    <string name ="hike_2_distance">Distance: 3 miles</string>
+    <string name ="hike_3_distance">Distance: 9.08</string>
+    <string name ="hike_4_distance">Distance: About 2 miles</string>
+    <string name ="hike_5_distance">Distance: 1 mile</string>
+    <string name ="hike_6_distance">Distance: 11 miles</string>
+
+    <string name ="hike_1_difficulty">Difficulty: Easy</string>
+    <string name ="hike_2_difficulty">Difficulty: Difficult</string>
+    <string name ="hike_3_difficulty">Difficulty: Moderate</string>
+    <string name ="hike_4_difficulty">Difficulty: Moderate</string>
+    <string name ="hike_5_difficulty">Difficulty: Easy</string>
+    <string name ="hike_6_difficulty">Difficulty: Moderate</string>
+
+    <string name ="hike_1_address"> 41.479102°N, -112.267650°W</string>
+    <string name ="hike_2_address">Baker Mine, Wellsville, UT 84339</string>
+    <string name ="hike_3_address"> 41º 24′ 47″ N, 111º 50′ 36″ W</string>
+    <string name ="hike_4_address">40.917337°, -111.863836°″ W</string>
+    <string name ="hike_5_address">41° 2’48.02″N – 111°54’17.06″W</string>
+    <string name ="hike_6_address">41.81605 N, 111.63267 W</string>
+
+    <string name ="national_park_1_name">Arches National Parke</string>
+    <string name ="national_park_2_name">Bryce Canyon National Park</string>
+    <string name ="national_park_3_name">Canyon Lands National Park</string>
+    <string name ="national_park_4_name">Dinosaur National Park</string>
+    <string name ="national_park_5_name">Golden Spike National Monument</string>
+    <string name ="national_park_6_name">Zion National Park</string>
+
+    <string name ="paddle_sports_1_name">Colorado River Day Float</string>
+    <string name ="paddle_sports_2_name">Mantua Reservoir</string>
+    <string name ="paddle_sports_3_name">Mirror Lake</string>
+    <string name ="paddle_sports_4_name">Smith &amp; Morehouse Reservoir</string>
+    <string name ="paddle_sports_5_name">Willard Bay</string>
+
+
+    <string name ="paddle_sports_1_distance">Distance: 9.1 miles</string>
+    <string name ="paddle_sports_2_distance">Distance: TBD</string>
+    <string name ="paddle_sports_3_distance">Distance: 2.8 miles</string>
+    <string name ="paddle_sports_4_distance">Distance: 2.5 miles</string>
+    <string name ="paddle_sports_5_distance">Distance: 1.2 miles</string>
+
+
+    <string name ="paddle_sports_1_difficulty">Difficulty: Moderate</string>
+    <string name ="paddle_sports_2_difficulty">Difficulty: Easy</string>
+    <string name ="paddle_sports_3_difficulty">Difficulty: Easy</string>
+    <string name ="paddle_sports_4_difficulty">Difficulty: Easy</string>
+    <string name ="paddle_sports_5_difficulty">Difficulty: Easy</string>
+
+    <string name ="paddle_sports_1_address">38.69569, -109.41353</string>
+    <string name ="paddle_sports_2_address">Mantua Reservoir, Mantua, UT 84324</string>
+    <string name ="paddle_sports_3_address">Mirror Lake, Utah 84031</string>
+    <string name ="paddle_sports_4_address">Smith and Morehouse Reservoir, Utah 84036</string>
+    <string name ="paddle_sports_5_address">Willard Bay, Utah</string>
 
 </resources>

@@ -29,18 +29,23 @@ public class DrivesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.trail_list, container, false);
 
         final ArrayList<Location> locations = new ArrayList<>();
-       locations.add(new Location(R.drawable.alpine_loop, "Alpine Loop",
-               getActivity().getString(R.string.alpine_loop_description),"Distance: 20 miles"));
-        locations.add(new Location(R.drawable.gandy_warm_springs, "Gandy Warm Springs",
-                getActivity().getString(R.string.gandy_warm_springs_description),"Distance: 4 1/2 hour drive"));
-        locations.add(new Location(R.drawable.liberty_avon_road, "Liberty-Avon Road",
-                getActivity().getString(R.string.liberty_avon_road_description),"Distance: 1-2 hour drive"));
-        locations.add(new Location(R.drawable.little_bear_river_porcupine_reservoir_salmon_run, "Little Bear River Salmon Run",
-                getActivity().getString(R.string.little_bear_river_description),"Distance: 1-2 hour drive"));
-        locations.add(new Location(R.drawable.logan_canyon_scenic_byway, "Logan Canyon Scenic Byway",
-                getActivity().getString(R.string.logan_canyon_description),"Distance:  39 miles"));
-        locations.add(new Location(R.drawable.tour_tilted_rocks, "Tour of Tilted Rocks",
-                getActivity().getString(R.string.tilted_rocks_description),"Distance: 10 miles"));
+       locations.add(new Location(R.drawable.alpine_loop, getActivity().getString(R.string.drive_1_name),
+               getActivity().getString(R.string.alpine_loop_description),getActivity().getString(R.string.drive_1_distance)));
+
+        locations.add(new Location(R.drawable.gandy_warm_springs, getActivity().getString(R.string.drive_2_name),
+                getActivity().getString(R.string.gandy_warm_springs_description),getActivity().getString(R.string.drive_2_distance)));
+
+        locations.add(new Location(R.drawable.liberty_avon_road, getActivity().getString(R.string.drive_3_name),
+                getActivity().getString(R.string.liberty_avon_road_description),getActivity().getString(R.string.drive_3_distance)));
+
+        locations.add(new Location(R.drawable.little_bear_river_porcupine_reservoir_salmon_run, getActivity().getString(R.string.drive_4_name),
+                getActivity().getString(R.string.little_bear_river_description),getActivity().getString(R.string.drive_4_distance)));
+
+        locations.add(new Location(R.drawable.logan_canyon_scenic_byway, getActivity().getString(R.string.drive_5_name),
+                getActivity().getString(R.string.logan_canyon_description),getActivity().getString(R.string.drive_5_distance)));
+
+        locations.add(new Location(R.drawable.tour_tilted_rocks, getActivity().getString(R.string.drive_6_name),
+                getActivity().getString(R.string.tilted_rocks_description),getActivity().getString(R.string.drive_6_distance)));
 
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations, R.color.category_drives);
